@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+    app: {
+        name: 'Angular Seed',
+    },
+    production: false,
+    repoUrl: 'https://github.com/chriscamac/angular-seed',
+    twitter: {
+        url: 'https://twitter.com/PilgrimSecret',
+        name: 'Chris Camac',
+    },
 };
 
 /*
